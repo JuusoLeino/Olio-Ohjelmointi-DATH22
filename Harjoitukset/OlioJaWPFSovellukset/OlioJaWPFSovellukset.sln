@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 7", "Harjoitus 7\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 8 (KT)", "Harjoitus 8 (KT)\Harjoitus 8 (KT).csproj", "{EE7C2B14-33CC-4555-BE52-06DEEF25B51D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 9 (KT)", "Harjoitus 9 (KT)\Harjoitus 9 (KT).csproj", "{B1F921E1-DABB-459B-8703-6020F5C241BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 9 (KT)", "Harjoitus 9 (KT)\Harjoitus 9 (KT).csproj", "{B1F921E1-DABB-459B-8703-6020F5C241BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus 10", "Harjoitus 10\Harjoitus 10.csproj", "{4F3BDD98-149E-4B31-AFDC-40C38C8D1F1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harjoitus 10", "Harjoitus 10\Harjoitus 10.csproj", "{4F3BDD98-149E-4B31-AFDC-40C38C8D1F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hajroitus 15", "Hajroitus 15\Hajroitus 15.csproj", "{1E74A699-BF1D-4B1A-9A83-8CA032318A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitsu 16", "Harjoitsu 16\Harjoitsu 16.csproj", "{6EE00DF2-09A7-4275-91A9-206B173D0EE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{4F3BDD98-149E-4B31-AFDC-40C38C8D1F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3BDD98-149E-4B31-AFDC-40C38C8D1F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3BDD98-149E-4B31-AFDC-40C38C8D1F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E74A699-BF1D-4B1A-9A83-8CA032318A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E74A699-BF1D-4B1A-9A83-8CA032318A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E74A699-BF1D-4B1A-9A83-8CA032318A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E74A699-BF1D-4B1A-9A83-8CA032318A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE00DF2-09A7-4275-91A9-206B173D0EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE00DF2-09A7-4275-91A9-206B173D0EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE00DF2-09A7-4275-91A9-206B173D0EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE00DF2-09A7-4275-91A9-206B173D0EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
