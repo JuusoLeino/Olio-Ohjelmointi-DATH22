@@ -1,0 +1,21 @@
+﻿<Window x:Class="Harjoitus_17__KT_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitus_17__KT_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_ovenlukko" Content="Auki" HorizontalAlignment="Left" Margin="113,110,0,0" VerticalAlignment="Top" Width="75" Height="67" Click="Btn_ovenlukko_Click"/>
+        <Button x:Name="btn_olohuonevalot" Content="Pois Päältä" HorizontalAlignment="Left" Margin="333,110,0,0" VerticalAlignment="Top" Width="75" Height="67" Click="Btn_olohuonevalot_Click"/>
+        <Button x:Name="btn_keittiövalot" Content="Pois Päältä" HorizontalAlignment="Left" Margin="222,110,0,0" VerticalAlignment="Top" Width="75" Height="67" Click="Btn_keittiövalot_Click"/>
+        <Slider x:Name="sldr_Lämpötila" HorizontalAlignment="Left" Margin="488,140,0,0" VerticalAlignment="Top" Width="132" Minimum="18" Maximum="24" ValueChanged="Sldr_Lämpötila_ValueChanged" Value="20"/>
+        <TextBox x:Name="txt_ovenlukko" HorizontalAlignment="Left" Height="23" Margin="113,59,0,0" TextWrapping="Wrap" Text="Oven Lukitus" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txt_olohuonevalot" HorizontalAlignment="Left" Height="23" Margin="333,59,0,0" TextWrapping="Wrap" Text="Olohuone Valot" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="txt_keittiövalot" HorizontalAlignment="Left" Height="23" Margin="222,59,0,0" TextWrapping="Wrap" Text="Keittiö Valot" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="txt_lämpötila" HorizontalAlignment="Left" Height="23" Margin="488,59,0,0" TextWrapping="Wrap" Text="Lämpötila" VerticalAlignment="Top" Width="132"/>
+        <Label x:Name="lbl_lämpötilaShow" Content="Label" HorizontalAlignment="Left" Margin="535,110,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
