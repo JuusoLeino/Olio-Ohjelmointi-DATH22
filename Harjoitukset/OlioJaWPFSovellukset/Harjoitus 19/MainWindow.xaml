@@ -1,0 +1,16 @@
+﻿<Window x:Class="Harjoitus_19.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Harjoitus_19"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="txt_question" HorizontalAlignment="Left" Margin="99,96,0,0" TextWrapping="Wrap" Text="Mihin kerrokseen haluat 1-6" VerticalAlignment="Top" Height="33" Width="303" FontSize="24"/>
+        <TextBox x:Name="txt_getfloor" HorizontalAlignment="Left" Height="33" Margin="407,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" FontSize="24" PreviewTextInput="txtgetfloor_Validation"/>
+        <TextBlock x:Name="txt_currentfloor" HorizontalAlignment="Left" Margin="99,142,0,0" TextWrapping="Wrap" Text="Olet Kerroksessa: " VerticalAlignment="Top" Height="33" Width="261" FontSize="24"/>
+        <Button x:Name="btn_changefloor" Content="Vaihda Kerrosta" HorizontalAlignment="Left" Margin="407,142,0,0" VerticalAlignment="Top" Width="133" Height="33" FontSize="18" Click="Btn_changefloor_Click"/>
+
+    </Grid>
+</Window>
